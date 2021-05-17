@@ -569,13 +569,15 @@ pre code {
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
+    padding: 0;
   }
 }
 .row {
   display: flex;
-  flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  padding: 3em 0;
+  flex-direction: row;
 }
 
 .no-gutters {
@@ -2442,8 +2444,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #65BF0C;
+  border-color: #65BF0C;
 }
 .btn-primary:hover {
   color: #fff;
@@ -4379,10 +4381,12 @@ input[type=button].btn-block {
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
+  display: flex;
 }
 
 .card-title {
   margin-bottom: 0.75rem;
+  padding-right: 4em;
 }
 
 .card-subtitle {
@@ -5500,7 +5504,6 @@ a.close.disabled {
 }
 
 .modal-header {
-  display: flex;
   align-items: flex-start;
   justify-content: space-between;
   padding: 1rem 1rem;
@@ -10026,7 +10029,7 @@ h3 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../assets/img/food.jpg") no-repeat center center;
+  background: url("../assets/img/fond.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -10080,8 +10083,6 @@ header.masthead h1 {
 
 .call-to-action {
   position: relative;
-  background-color: #343a40;
-  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -10096,7 +10097,12 @@ header.masthead h1 {
   opacity: 0.3;
 }
 
+
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  background-color: #FFB500 !important;
 }
+
+
+

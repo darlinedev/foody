@@ -25,92 +25,74 @@
   <!-- Navbar -->        <!-- Masthead-->
   <div id="myOverlay"></div>
       <a href="#"><img id="fixed"src="assets/img/menu64.png" alt="menu"></a>
+      <button id = "buttonHeader" type="button" class="btn btn-secondary">Se connecter</button>
 
     <div class="modalhihi" id="modalPrem">
-        <div class="modal-header">
-            <div class="title">Example modal</div>
-            <button id="closeButton">&times;</button>
-        </div>
-        <div class="modal-body">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor possimus, saepe, obcaecati quasi facilis aut pariatur cum alias accusamus dicta sapiente eius distinctio atque facere molestiae sit fugiat commodi deleniti.
+        <div id = "modalSupp" class="modal-header">
+            <p>Devenir partenaire</p>
+            <p>Devenir restaurateur partenaire</p>
+            <p>Devenir coursier partenaire</p>
+            <svg id = "closeButton" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+                <defs>
+                  <clipPath id="clip-path">
+                    <rect width="14.252" height="14.252" fill="none"/>
+                  </clipPath>
+                </defs>
+                <g id="Groupe_217" data-name="Groupe 217" transform="translate(-1088 -864)">
+                  <g id="Groupe_237" data-name="Groupe 237">
+                    <circle id="Ellipse_233" data-name="Ellipse 233" cx="20" cy="20" r="20" transform="translate(1088 864)" fill="#fff"/>
+                    <g id="icon_close" transform="translate(1100.874 876.874)" clip-path="url(#clip-path)">
+                      <rect id="Rectangle_145" data-name="Rectangle 145" width="17.995" height="2.159" transform="translate(1.527) rotate(45)" fill="#fa5012"/>
+                      <rect id="Rectangle_146" data-name="Rectangle 146" width="17.995" height="2.159" transform="translate(14.252 1.527) rotate(135)" fill="#fa5012"/>
+                    </g>
+                  </g>
+                </g>
+              </svg>
         </div>
     </div>
-
-        <header class="masthead text-white text-center ">
-
-            
+        <header class="masthead text-white text-center ">            
             <div class="container ">
-                <div class="row">
-                    <div class="col-xl-9 mx-auto"><h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1></div>
+                <div class="row" id="rowHeader">
+                    <div class="col-xl-9 mx-auto"><h1 class="mb-5">Pas besoin de vous déplacer, faîtes vous livrer !!</h1></div>
                     <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                         <form>
                             <div class="form-row">
-                                <div class="col-12 col-md-9 mb-2 mb-md-0"><input class="form-control form-control-lg" type="email" placeholder="Enter your email..." /></div>
-                                <div class="col-12 col-md-3"><button class="btn btn-block btn-lg btn-primary" type="submit">Sign up!</button></div>
+                                <div class="col-12 col-md-9 mb-2 mb-md-0"><input class="form-control form-control-lg" type="email" placeholder="Entrer votre adresse..." /></div>
+                                <div class="col-12 col-md-3"><button class="btn btn-block btn-lg btn-primary" type="submit">Rechercher</button></div>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- Icons Grid-->
-        <section class="features-icons bg-light text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="icon-screen-desktop m-auto text-primary"></i></div>
-                            <h3>Fully Responsive</h3>
-                            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="icon-layers m-auto text-primary"></i></div>
-                            <h3>Bootstrap 4 Ready</h3>
-                            <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="icon-check m-auto text-primary"></i></div>
-                            <h3>Easy to Use</h3>
-                            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <!-- Image Showcases-->
-        <div class="container-lg container-md">
+        <div id = "myContainer" class="container-lg container-md">
             <div class="row">
               <div class="col-lg-4">
                 <div class="card">
-                    <img src="assets/img/hamburger.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/japonais.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <figure class="card-title"><img src="assets/img/rating.svg" alt=""></figure>
+                      <a href="#" class="btn btn-primary .myBTN">Commander</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card">
-                        <img src="assets/img/hamburger.jpg" class="card-img-top" alt="...">
+                        <img src="assets/img/japonais.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <figure class="card-title"><img src="assets/img/rating.svg" alt=""></figure>
+                          <a href="#"  class="btn btn-primary myBTN">Commander</a>
                         </div>
                       </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="card">
-                            <img src="assets/img/hamburger.jpg" class="card-img-top" alt="...">
+                            <img src="assets/img/japonais.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <figure class="card-title"><img src="assets/img/rating.svg" alt=""></figure>
+                              <a href="#" class="btn btn-primary .myBTN">Commander</a>
                             </div>
                           </div>
                         </div>
@@ -118,31 +100,28 @@
             <div class="row">
                 <div class="col-lg-4">
                   <div class="card">
-                      <img src="assets/img/hamburger.jpg" class="card-img-top" alt="...">
+                      <img src="assets/img/creme-a-la-fraise.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <figure class="card-title"><img src="assets/img/rating.svg" alt=""></figure>
+                        <a href="#" class="btn btn-primary .myBTN">Commander</a>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                        <img src="assets/img/hamburger.jpg" class="card-img-top" alt="...">
+                        <img src="assets/img/petitdej.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <figure class="card-title"><img src="assets/img/rating.svg" alt=""></figure>
+                          <a href="#" class="btn btn-primary .myBTN">Commander</a>
                         </div>
                       </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="card">
-                            <img src="assets/img/hamburger.jpg" class="card-img-top" alt="...">
+                            <img src="assets/img/boulettes.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <figure class="card-title"><img src="assets/img/rating.svg" alt=""></figure>
+                              <a href="#" class="btn btn-primary">Commander</a>
                             </div>
                           </div>
                         </div>
@@ -178,23 +157,26 @@
         </section>
         <!-- Call to Action-->
         <section class="call-to-action text-white text-center">
-            <div class="overlay"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-9 mx-auto"><h2 class="mb-4">Ready to get started? Sign up now!</h2></div>
                     <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                        <form>
-                            <div class="form-row">
-                                <div class="col-12 col-md-9 mb-2 mb-md-0"><input class="form-control form-control-lg" type="email" placeholder="Enter your email..." /></div>
-                                <div class="col-12 col-md-3"><button class="btn btn-block btn-lg btn-primary" type="submit">Sign up!</button></div>
-                            </div>
-                        </form>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10489.912925614632!2d2.3598659!3d48.9062802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1621253788619!5m2!1sfr!2sfr"  allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="col-xl-9 mx-auto ">
+                        <h2 class="mb-4" id="mapH2">Les restaurants</h2>
+                        <ul id="mapInfo">
+                            <li>Lorem Lorem Lorem Lorem Lorem Lorem</li>
+                            <li>Lorem Lorem Lorem Lorem Lorem Lorem</li>
+                            <li>Lorem Lorem Lorem Lorem Lorem Lorem</li>
+                            <li>Lorem Lorem Lorem Lorem Lorem Lorem</li>
+                            <li>Lorem Lorem Lorem Lorem Lorem Lorem</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-light">
+        <footer id="myFooter" class="footer bg-light">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
@@ -228,6 +210,7 @@
         <!-- Bootstrap core JS-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
         <!-- Core theme JS-->
         
         <script src="js/scripts.js"></script>
